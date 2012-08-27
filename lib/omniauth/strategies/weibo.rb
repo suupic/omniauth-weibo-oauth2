@@ -24,8 +24,8 @@ module OmniAuth
           :image        => raw_info['profile_image_url'],
           :description  => raw_info['description'],
           :urls => {
-            'Blog'      => raw_info['url'],
-            'Weibo'     => raw_info['domain'].present?? "http://weibo.com/#{raw_info['domain']}" : "http://weibo.com/u/#{raw_info['id']}",
+#            'Blog'      => raw_info['url'],
+#            'Weibo'     => raw_info['domain'].present?? "http://weibo.com/#{raw_info['domain']}" : "http://weibo.com/u/#{raw_info['id']}",
           }
         }
       end
